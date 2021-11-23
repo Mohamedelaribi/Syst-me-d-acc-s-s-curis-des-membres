@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    background-image: url("background2.png");
+}
+#nav-bar{
+    margin: 10px;
+    display: flex;
+}
+#logo{
+    margin: 20px;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 80px;
+}
+#navlist{
+    display: flex;
+    position: relative;
+    left: 700px;
+    margin: 30px;
+}
+#navlist li a{
+    margin: 30px;
+    color: #FF6F06;
+    opacity: 98%;
+    font-size: 54px;
+    font-style: bolder;
+    font-family:Fruktur;
+    left: 1089px;
+}
+#tetle1{
+    color: #FF6F06;
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    margin: 30px;
+
+}
+#main{
+    display: flex;
+}
+form{
+    margin-left: 500px;
+    width: 350px;
+    height: 394px;
+
+}
+label{
+    font-size: 20px;
+    color: #FF6F06;
+
+
+}
+input{
+    border-radius: 30px;
+    height: 30px;
+    width: 300px; 
+    margin: 20px;
+    border: 2px solid;  
+    color: white;
+    padding: 20px;
+}
+footer{
+    height: 126px;
+    }
+@media only screen and (max-width: 768px){
+    #navlist{
+        left: 140px;
+    }
+    #navlist li a {
+        font-size: 34px;
+        }
+    form{
+        margin-left: 141px;
+    }
+}
