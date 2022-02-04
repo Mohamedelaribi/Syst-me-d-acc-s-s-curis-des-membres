@@ -7,7 +7,9 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+
 }
+
 
 
 header{ 
@@ -41,7 +43,7 @@ header{
     justify-content: center;
     align-items: center;
     left: 50px;
-    margin-left: 700px;
+    margin-left: 250px;
 }
 
 #navlist li a{
@@ -54,6 +56,12 @@ header{
     font-size: 26px ;
     font-family: sans-serif;
     letter-spacing: 0.100em;
+}
+#navlist li a:hover{
+    color: coral;
+    background-color:dimgrey;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .HeaderTitle{
@@ -91,7 +99,7 @@ main{ background-color: white;}
     padding: 20px 80px;
     color: white;
     background-color: grey;
-    margin: 453px;
+    margin: 575px;
     border-radius: 12px;
     font-size: 64px;
 }
@@ -120,6 +128,7 @@ main{ background-color: white;}
 .card{
       text-align: center;  padding: 10px;
       padding-top: 20px;
+      margin-left: 60px;
 }
 .card img{
         width: 320px;
