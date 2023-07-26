@@ -1,0 +1,24 @@
+
+.accounts-page {
+    .page-content {
+        .header {
+            height: 40px ;
+            background-color: $dark-blue ;
+            .search-area {
+                input {
+                    border-radius: 20px ;
+                    outline: none;
+                }
+            }
+            .kyc-area {
+            }
+        }
+
+        table.accounts {
+            input {
+                border: none ;
+                background-color: transparent ;
+            }
+        }
+    }
+}

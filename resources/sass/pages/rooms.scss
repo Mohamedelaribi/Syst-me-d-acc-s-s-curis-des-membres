@@ -1,0 +1,19 @@
+
+.rooms-page {
+    .page-content {
+        .header {
+            height: 35px ;
+            .title {
+                font-size: 1.2rem ;
+                font-weight: bold ;
+            }
+        }
+
+        table.rooms {
+            input {
+                border: none ;
+                background-color: transparent ;
+            }
+        }
+    }
+}

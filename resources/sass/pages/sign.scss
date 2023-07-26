@@ -1,0 +1,53 @@
+
+.sign-page {
+    height: 100vh ;
+    background-color: $dark-blue ;
+
+    .sign-wrapper {
+        margin: 0 auto ;
+        max-width: 400px ;
+
+        .sign-header {
+            .logo-image {
+                img {
+                    width: 60px ;
+                }
+            }
+            .logo-text {
+                .title {
+                    font-weight: bold ;
+                    color: inherit ;
+                    font-size: 2rem ;
+                    line-height: 1.5rem ;
+                }
+                .subtitle {
+                    color: inherit ;
+                    font-size: 2rem ;
+                    line-height: 1.5rem ;
+                }
+            }
+        }
+
+        .sign-container {
+            label {
+                margin-bottom: 0 ;
+                color: white ;
+                font-size: 1rem ;
+                font-weight: bold ;
+            }
+            .form-group {
+                margin-bottom: .5rem ;
+            }
+            .login-title {
+                font-size: 1.5rem ;
+            }
+            .account-type select {
+                width: auto ;
+            }
+        }
+
+        .pw-forgot {
+            font-size: .6rem ;
+        }
+    }
+}

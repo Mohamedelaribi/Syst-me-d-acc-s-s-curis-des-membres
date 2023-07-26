@@ -1,0 +1,24 @@
+.home-page {
+    height: 100vh ;
+    .page-content {
+        overflow: scroll ;
+        .welcome-block {
+            padding: 2rem 4rem ;
+        }
+        .features-block {
+            padding: 1rem 2rem ;
+            background-color: $lighter-grey ;
+            .feature {
+                .feature-image {
+                    width: 50px ;
+                }
+                .content {
+                }
+            }
+        }
+        p {
+            margin: 0 ;
+            line-height: 1rem ;
+        }
+    }
+}

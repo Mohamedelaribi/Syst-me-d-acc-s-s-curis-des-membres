@@ -1,0 +1,137 @@
+
+@import 'color';
+
+body, div, a, span, p, h1, h2, h3, h4, h5, h6, table, thead, tbody, th, td {
+    color: $black ;
+}
+
+button {
+    border: none ;
+
+    &.button-sm {
+        height: 20px ;
+    }
+    &.button-md {
+        height: 30px ;
+    }
+    &.button-lg {
+        height: 40px ;
+    }
+
+    &.button-grey {
+        color: white ;
+        background-color: $darker-grey ;
+    }
+    &.button-blue {
+        color: white ;
+        background-color: $dark-blue ;
+    }
+    &.button-red {
+        color: white ;
+        background-color: $dark-red ;
+    }
+    &.button-red-outline {
+        color: $dark-red ;
+        border: 1px solid $dark-red ;
+        background-color: white;
+    }
+    &.button-green {
+        color: white ;
+        background-color: $green ;
+    }
+    &.button-green-outline {
+        color: $green ;
+        border: 1px solid $green ;
+        background-color: white ;
+    }
+    &.button-lightgreen {
+        color: white ;
+        background-color: $light-green ;
+    }
+    &.button-orange {
+        color: white ;
+        background-color: $orange ;
+    }
+    &.button-transparent {
+        border: none ;
+        background-color: transparent ;
+    }
+    &.button-white {
+        color: $dark-blue ;
+        background-color: white ;
+        border: 1px solid $dark-blue ;
+    }
+    &.button-outline {
+        border: 1px solid white ;
+        border-radius: 3px ;
+        color: white ;
+        background-color: transparent ;
+        &:hover {
+            color: $dark-blue ;
+            background-color: white ;
+            opacity: 1;
+        }
+    }
+
+    &:hover {
+        cursor: pointer ;
+        opacity: 0.5;
+    }
+
+    span {
+        color: inherit ;
+    }
+}
+
+input:not(input[type=checkbox]) {
+    width: 100% ;
+}
+
+.color-disabled {
+    color: $color-disabled ;
+}
+
+
+table.mytable {
+    th {
+        background-color: $grey ;
+        border-right: 1px solid $darkest-grey ;
+        border-bottom: none ;
+    }
+    tr:nth-child(odd) {
+        background-color: $lighter-grey ;
+    }
+
+    th, td {
+        padding: .3rem 2rem ;
+    }
+    td {
+        border: none ;
+        vertical-align: middle ;
+    }
+}
+
+.alert.alert-light {
+    color: black ;
+}
+
+img {
+    @for $i from 1 through 8 {
+        $img_size: $i * 5;
+        &.size-#{$img_size} {
+            width: $img_size + px ;
+            height: $img_size + px ;
+        }
+    }
+}
+
+.goback-link {
+    &:hover {
+        cursor: pointer ;
+    }
+}
+
+select {
+    height: 30px ;
+    background-color: white;
+}

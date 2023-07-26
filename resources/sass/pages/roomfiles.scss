@@ -1,0 +1,7 @@
+
+.roomfiles-page {
+    .page-content {
+        @import 'files-panes/filemanager';
+        @import 'files-panes/taskmanager';
+    }
+}

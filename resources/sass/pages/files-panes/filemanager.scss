@@ -1,0 +1,41 @@
+.filemanager-pane {
+    .documents-block {
+        table.filestable {
+            th {
+                padding: 0 ;
+                line-height: 2rem ;
+            }
+            th, td {
+                border: 1px solid $light-grey ;
+            }
+            td {
+                padding: 0 ;
+                vertical-align: middle ;
+            }
+            input {
+                width: 20px !important ;
+            }
+            input[type=text] {
+                width: 200px !important ;
+            }
+            @for $i from 0 through 4 {
+                tr.level-#{$i} {
+                    th:first-child, td:first-child {
+                        padding-left: ($i*2) + rem ;
+                    }
+                }
+            }
+            select {
+                font-size: 0.9rem;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid $black;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+        }
+    }
+
+    .button-block {
+    }
+}

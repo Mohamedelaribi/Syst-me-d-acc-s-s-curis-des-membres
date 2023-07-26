@@ -1,0 +1,16 @@
+
+.kyc-page {
+    .page-content {
+        .label {
+            color: $black ;
+            font-size: 1rem ;
+        }
+
+        .passport, .address {
+            .detail {
+                font-size: .8rem ;
+                font-style: italic;
+            }
+        }
+    }
+}

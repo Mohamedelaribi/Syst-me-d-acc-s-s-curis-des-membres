@@ -1,0 +1,69 @@
+
+.page-header {
+    flex: 0 0 $height-30 ;
+    border-bottom: 1px solid $black ;
+
+    .title {
+        font-size: 1rem ;
+    }
+
+    &__blue {
+        color: $dark-blue ;
+
+        .title {
+            color: $dark-blue ;
+        }
+    }
+}
+
+.room-header {
+    flex: 0 0 $height-30 ;
+    border-bottom: 1px solid $black ;
+
+    .info-block {
+        flex: 0 0 $left-pane-width ;
+        border-right: 1px solid $black ;
+
+        table {
+            th {
+                color: $dark-blue ;
+                font-size: 1.2rem ;
+            }
+            td {
+                color: $black ;
+            }
+        }
+    }
+    .title-block {
+        .title {
+            font-size: 2rem ;
+            font-weight: bold ;
+            line-height: 2rem ;
+        }
+        .room-id {
+            font-size: 1.2rem ;
+        }
+        div {
+            color: $dark-blue ;
+        }
+    }
+}
+
+.pane-header {
+    background-color: $dark-blue ;
+
+    .goback-link {
+        &:hover {
+            cursor: pointer ;
+        }
+        span {
+            color: white ;
+            font-size: 1.5rem ;
+        }
+    }
+
+    .title {
+        color: white ;
+        font-size: 1.5rem ;
+    }
+}

@@ -1,0 +1,51 @@
+
+.navbar {
+    padding: .3rem ;
+    flex: 0 0 $height-50 ;
+    background: $dark-blue ;
+
+    .logo-block {
+        .logo-text {
+            div {
+                line-height: 1rem ;
+            }
+        }
+    }
+    .navitems-block {
+        .navitem {
+            text-decoration: none ;
+        }
+        @media (min-width: 1366px) {
+            .navitem-text {
+                color: white ;
+                margin-left: 1rem ;
+            }
+        }
+        @media (max-width: 1365px) {
+            .navitem {
+                position: relative ;
+
+                .navitem-text {
+                    visibility: hidden;
+                    position: absolute;
+                    z-index: 1;
+                    top: 2rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+
+                    width: 200px;
+                    background-color: pink;
+                    color: $dark-blue;
+                    text-align: center;
+                    border-radius: 6px;
+
+                    /* Position the tooltip */
+                }
+
+                &:hover .navitem-text {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}

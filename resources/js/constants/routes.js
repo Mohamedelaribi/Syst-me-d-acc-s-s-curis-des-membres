@@ -1,0 +1,17 @@
+export const HOME = '/';
+export const DASHBOARD = '/dashboard';
+export const SIGN_IN = '/signin';
+export const SIGN_UP = '/signup';
+export const PASSWORD_FORGET = '/pw-forget';
+export const ACCOUNT_SETTINGS = '/account';
+export const MY_ROOMS = '/myrooms';
+export const ROOM = '/rooms/:rid';
+export const ROOM_FILES = '/room/:rid/files';
+export const CREATE_ROOM = '/room/create';
+export const UPDATE_ROOM = '/room/:rid/update';
+export const KYC = '/account/KYC';
+export const ROOMS = '/rooms';
+export const MANAGE_ACCOUNTS = '/accounts';
+export const KYC_APPROVALS = '/KYC-approvals';
+export const KYC_APPROVAL = '/KYC-approvals/:uid';
+export const VERIFY_EMAIL = '/verify/:uid';

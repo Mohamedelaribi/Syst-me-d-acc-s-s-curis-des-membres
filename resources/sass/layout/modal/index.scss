@@ -1,0 +1,30 @@
+
+@import 'addusers';
+@import 'uploaddocument';
+@import 'termsconditions';
+
+.modal-background {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(255, 255,255); /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.7); /* Black w/ opacity */
+}
+
+.mymodal {
+    position: fixed ;
+    z-index: 2 ;
+    left: 0 ;
+    right: 0 ;
+    margin: 100px auto ;
+    width: 50% ;
+    border: 2px solid $black ;
+
+    form {
+        margin: 0 ;
+    }
+}

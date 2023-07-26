@@ -1,0 +1,22 @@
+
+@import 'header';
+@import 'footer';
+@import 'navbar';
+@import 'sidebar';
+@import 'modal';
+
+
+.layout {
+    height:100vh ;
+    border: 1px solid $black ;
+
+    .main-content {
+        overflow-y: scroll;
+
+        background-color: white ;
+
+        .page-content {
+            background-color: white ;
+        }
+    }
+}

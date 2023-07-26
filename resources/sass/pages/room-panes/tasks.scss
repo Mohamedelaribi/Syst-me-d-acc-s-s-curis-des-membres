@@ -1,0 +1,39 @@
+
+.tasks-pane {
+    flex: 0 0 $right-pane-width ;
+    border-left: 1px solid $black ;
+
+    .tasks-block {
+        .tasks-group {
+            .group-header {
+                background-color: $light-grey ;
+            }
+            .group-contents {
+                background-color: $lighter-grey ;
+                .content {
+                    .title {
+                        width: 200px ;
+                        overflow: hidden ;
+                    }
+                    .link {
+                        a {
+                            color: $black ;
+                            text-decoration: underline ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .view-files {
+        button {
+            color: $dark-blue ;
+            border: 1px solid $dark-blue ;
+
+            span {
+                font-size: 1rem ;
+            }
+        }
+    }
+}

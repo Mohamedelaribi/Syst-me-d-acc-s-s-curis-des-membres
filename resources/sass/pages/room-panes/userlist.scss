@@ -1,0 +1,31 @@
+
+.userlist-pane {
+    flex: 0 0 $left-pane-width ;
+    border-right: 1px solid $black ;
+
+    .participants-block {
+        overflow-y: scroll ;
+
+        .group {
+            .group-title {
+                font-weight: bold ;
+                font-style: italic ;
+                font-size: 1rem ;
+            }
+        }
+    }
+
+    .user-block {
+        background: $lighter-grey ;
+        .profile {
+            border-bottom: 1px solid $black ;
+        }
+
+        &.user-global-admin-border {
+            border: 1px solid $dark-blue ;
+        }
+        &.user-room-admin-border {
+            border: 1px solid $dark-yellow ;
+        }
+    }
+}

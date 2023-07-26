@@ -1,0 +1,18 @@
+.adduser-modal {
+    .header {
+        padding: 3px ;
+        height: 35px ;
+        background-color: $dark-blue ;
+
+        .title {
+            font-size: 1.5rem ;
+        }
+        .close {
+            opacity: 1 ;
+        }
+    }
+
+    .body {
+        background-color: $lighter-grey ;
+    }
+}

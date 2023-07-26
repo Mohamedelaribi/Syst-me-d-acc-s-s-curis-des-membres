@@ -1,0 +1,39 @@
+
+.messages-pane {
+    .messages-block {
+        overflow-y: scroll ;
+        .message-block {
+            .content {
+                display: inline-block ;
+                color: white ;
+                background-color: $darker-grey ;
+                border-radius: 5px ;
+            }
+            .timestamp {
+                display: inline-block ;
+                .time {
+                    font-size: .8rem ;
+                }
+                .date {
+                    font-size: .5rem ;
+                }
+            }
+        }
+    }
+
+    .send-message-block {
+        flex: 0 0 $height-40 ;
+        border-top: 1px solid $black ;
+        background-color: white ;
+
+        .new-message-block {
+            border-right: 1px solid $black ;
+            input.new-message-input:focus {
+                outline: 0 ;
+            }
+        }
+        .request-moderator-block {
+            opacity: .5 ;
+        }
+    }
+}
